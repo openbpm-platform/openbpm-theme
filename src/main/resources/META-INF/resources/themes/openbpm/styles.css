@@ -1,0 +1,11 @@
+/*
+ * Copyright (c) Haulmont 2025. All Rights Reserved.
+ * Use is subject to license terms.
+ */
+
+html {
+    --lumo-primary-text-color: rgb(61, 114, 214);
+    --lumo-primary-color-50pct: rgba(61, 114, 214, 0.5);
+    --lumo-primary-color-10pct: rgba(61, 114, 214, 0.1);
+    --lumo-primary-color: #3D72D6;
+}
