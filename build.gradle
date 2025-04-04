@@ -12,22 +12,8 @@ group = 'io.openbpm.ui'
 
 repositories {
     mavenCentral()
-
-    if (rootProject.hasProperty('jmixRepoUrl')) {
-        maven {
-            url rootProject['jmixRepoUrl']
-
-            if (rootProject.hasProperty('jmixRepoUser') && rootProject.hasProperty('jmixRepoPassword')) {
-                credentials {
-                    username rootProject['jmixRepoUser']
-                    password rootProject['jmixRepoPassword']
-                }
-            }
-        }
-    } else {
-        maven {
-            url 'https://global.repo.jmix.io/repository/public'
-        }
+    maven {
+        url 'https://global.repo.jmix.io/repository/public'
     }
 }
 
